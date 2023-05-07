@@ -1,5 +1,5 @@
 var vidHidden = false;
-var currentMinutes = 6;
+var currentMinutes = 60;
 var currentSeconds = 00;
 var secondDisplay = "00";
 
