@@ -57,7 +57,7 @@ input{
     color: #85edff;
     font-size: 6rem;
     top:38%;
-    left: 17%;
+    left: 15%;
     z-index: 0;
 }
 
@@ -80,7 +80,7 @@ input{
 
 .innerScreen {
     position: absolute;
-    width: 48%;
+    width: 50%;
     height: 91%;
     right: 49px;
     top: 20px;
@@ -96,9 +96,14 @@ input{
 
 .alien-script {
     font-size: 2.4rem;
-    letter-spacing: 0.8rem;
     font-family: 'alienScript';
-    line-height: 0rem;
+    margin-top: 2rem;
+}
+
+.alien-script span {
+    width: 25px;
+    text-align: center;
+    margin: 0rem 0.8rem;
 }
 
 .letter-input{
@@ -108,7 +113,7 @@ input{
     font-size: 1.3rem;
     font-weight: bold;
     outline: none;
-    margin: -10px 10px;
+    margin: 0rem 0.7rem;
     border: solid 1px lightskyblue;
     background: none;
     color: white;
