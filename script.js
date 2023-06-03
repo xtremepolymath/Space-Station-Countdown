@@ -85,12 +85,15 @@ function checkForWin(){
     
     if(answer === code){
         scrollWinText();
+        alertNoise.pause();
     }
 
     console.log(answer);
 }
 
 function scrollWinText(){
+
+        
 
         document.getElementById("mainPanel").style.display = "none";
         document.getElementById("winPanel").style.display = "flex";
